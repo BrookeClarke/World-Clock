@@ -1,49 +1,66 @@
 body {
+    background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/082/349/original/pattern-texture-time-clocks-wallpaper-preview.jpg?1684327979);
     background-color: #f9f7fe;
     font-family: 'Courier New', Courier, monospace;
-    padding: 30px;
-}
-.container {
- max-width: 600px;
- margin: 0 auto;
- background-color: white;
- padding: 50px;
- box-shadow: 3px 3px 4px grey;
- border-radius: 10px;
-}
-h1 {
+    margin: 30px;
+    }
+   
+    .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #BCA98F;
+    padding: 35px;
+    box-shadow: 3px 3px 4px grey;
+    border-radius: 10px;
+    border: 6px solid #000;
+    }
+   
+    h1 {
     text-align: center;
     text-decoration: underline;
-}
-select {
+    text-shadow: 5px 5px 10px rgba(61, 61, 75, 0.4);
+    color: #000;
+    }
+   
+    select {
     display: block;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    font-size: 11px;
-}
-h2 {
+    font-size: 12px;
+    }
+   
+    h2 {
     margin: 0 0 5px;
     font-size: 30px;
-}
-.city {
+    }
+   
+    .city {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
-    border-bottom: 1px dashed grey;
-    padding: 20px;
-}
-.date {
+    margin: 15px 0;
+    border-bottom: 1px dashed black;
+    padding: 15px;
+    }
+   
+    .date {
     opacity: 0.9;
-}
-.time {
-font-size: 20px;
-font-weight: bold;
-}
-.time small {
+    }
+   
+    .time {
+    font-size: 25px;
+    font-weight: bold;
+    }
+   
+    .time small {
     font-size: 18px;
-}
-footer {
+    line-height: 48px;
+    }
+   
+    footer {
     text-align: center;
-    font-size: 16px;
-}
+    font-size: 15px;
+    background-color: #BCA98F;
+    border: 3px solid #000;
+    border-radius: 5px;
+    }

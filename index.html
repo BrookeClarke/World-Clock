@@ -45,3 +45,123 @@
     <script src="app.js"></script>
   </body>
 </html>
+
+ 
+body {
+  background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/082/349/original/pattern-texture-time-clocks-wallpaper-preview.jpg?1684327979);
+  background-color: #f9f7fe;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 30px;
+  }
+ 
+  .container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #BCA98F;
+  padding: 35px;
+  box-shadow: 3px 3px 4px grey;
+  border-radius: 10px;
+  border: 6px solid #000;
+  }
+ 
+  h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 5px 10px rgba(61, 61, 75, 0.4);
+  color: #000;
+  }
+ 
+  select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  }
+ 
+  h2 {
+  margin: 0 0 5px;
+  font-size: 30px;
+  }
+ 
+  .city {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  border-bottom: 1px dashed black;
+  padding: 15px;
+  }
+ 
+  .date {
+  opacity: 0.9;
+  }
+ 
+  .time {
+  font-size: 25px;
+  font-weight: bold;
+  }
+ 
+  .time small {
+  font-size: 18px;
+  line-height: 48px;
+  }
+ 
+  footer {
+  text-align: center;
+  font-size: 15px;
+  background-color: #BCA98F;
+  border: 3px solid #000;
+  border-radius: 5px;
+  }
+  </style>
+</head>
+ 
+<body>
+ 
+<div class="container">
+ 
+  <h1>World Clock</h1>
+ 
+  <select name="" id="">
+ 
+    <option value="">Select a city...</option>
+    <option value="">Los Angeles</option>
+    <option value="">Sydney</option>
+    <option value="">Tokyo</option>
+ 
+  </select>
+ 
+  <div class="city">
+    <div>
+    <h2>
+      <strong>London</strong>
+    </h2>
+  <div class="date">Tuesday 16th May 2023</div>
+  </div>
+  <div class="time">21:05
+    <small>pm</small>
+  </div>
+  </div>
+ 
+  <div class="city">
+    <div>
+    <h2>
+      <strong>Paris</strong>
+    </h2>
+  <div class="date">Tuesday 16th May 2023</div>
+  </div>
+  <div class="time"> 21:05
+    <small>pm</small>
+  </div>
+  </div>
+</div>
+ 
+<footer>This project was coded by Brooke Clarke and is
+  <a href="https://github.com/BrookeClarke/World-Clock"> open sourced on GitHub</a>
+</footer>
+ 
+<script src="app.js"></script>
+ 
+</body>
+ 
+</html>
