@@ -35,7 +35,8 @@ function updateTime() {
     </div>
     <div class="time">${cityTime.format("HH:mm:ss")}<small>${cityTime.format("A")}</small>
     </div>
-</div>`;
+</div>
+<a href="index.html"> All Cities </a>`;
     }
 updateTime();
 setInterval(updateTime, 1000);
